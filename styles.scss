@@ -1,0 +1,57 @@
+$main-color: #6b46c1;
+$secondary-color: #4299e1;
+$text-color: #2d3748;
+$font-main: Arial, sans-serif;
+$button-padding: 12px 24px;
+$transition-time: 0.3s;
+
+body {
+    font-family: $font-main;
+    color: $text-color;
+    padding: 20px;
+    background-color: #f8f9ff;
+}
+
+h1 {
+    color: $main-color;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: $secondary-color;
+    margin-bottom: 15px;
+}
+
+
+.text-center {
+    h1 {
+        font-size: 6rem;
+        color: $main-color;
+        text-shadow: 2px 2px 4px rgba($secondary-color, 0.2);
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: $secondary-color;
+    }
+
+    p {
+        margin-bottom: 30px;
+        color: mix($main-color, $text-color, 30%);
+    }
+}
+
+button, .btn {
+    background-color: $main-color;
+    color: white;
+    padding: $button-padding;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color $transition-time ease;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}

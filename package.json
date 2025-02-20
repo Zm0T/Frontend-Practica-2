@@ -1,0 +1,22 @@
+{
+  "name": "practika-2",
+  "version": "1.0.0",
+  "description": "Учебный проект с Express и Sass",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "sass": "sass styles.scss:styles.css",
+    "sass:watch": "sass --watch styles.scss:styles.css",
+    "build": "sass styles.scss:styles.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "sass": "^1.69.5"
+  }
+}
