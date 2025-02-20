@@ -1,7 +1,6 @@
 {
   "name": "practika-2",
   "version": "1.0.0",
-  "description": "Учебный проект с Express и Sass",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
